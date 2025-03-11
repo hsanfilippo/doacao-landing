@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212; /* Fundo escuro */
+  color: #f5f5f5; /* Texto claro */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background: #1e1e1e; /* Fundo do container escuro */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background: #2a2a2a; /* Fundo dos cards */
+  color: #f5f5f5; /* Texto nos cards */
+}
+
+.btn-purple {
+  background-color: #6a0dad; /* Roxo escuro */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-purple:hover {
+  background-color: #8a2be2; /* Roxo mais claro ao passar o mouse */
+}
