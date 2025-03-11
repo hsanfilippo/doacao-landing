@@ -55,6 +55,8 @@ const items = [
   },
 ]
 
+const phoneNumber = "8109063813550"
+
 const CardItem = () => {
     return (
         <div className="container mt-7 pt-7 text-light bg-dark min-vh-100 p-4">
@@ -68,7 +70,14 @@ const CardItem = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">{item.name}</h5>
                                     <p className="card-text">{item.description}</p>
-                                    <button className="btn btn-purple w-100">Saiba mais</button>
+                                    <a 
+                                    href={`https://wa.me/${phoneNumber}?text=Olá, tenho interesse no item "${item.name}"`} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="btn btn-purple w-100"
+                                >
+                                    Saiba mais
+                                </a>
                                 </div>
                             </div>
                         </div>
