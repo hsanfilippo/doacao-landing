@@ -1,13 +1,5 @@
 const items = [
   {
-    id: 1,
-    name: "TV 40 Polegadas",
-    description: "Em bom estado, nenhum defeito na imagem",
-    image: "https://static-file-vault.vercel.app/fotos-doacao/tv.jpeg",
-    price: "JPY 10.000",
-    venda: true,
-  },
-  {
     id: 2,
     name: "Mesa em L",
     description: "Mesa em L separável em 2 mesas comuns.",
@@ -30,14 +22,6 @@ const items = [
     image: "https://static-file-vault.vercel.app/fotos-doacao/halteres.jpeg",
     price: "Doação",
     venda: false,
-  },
-  {
-    id: 5,
-    name: "Fogão elétrico",
-    description: "Fogão de indução 2 bocas, até 1400w ou 700w nas duas juntas.",
-    image: "https://static-file-vault.vercel.app/fotos-doacao/fogao.jpeg",
-    price: "JPY 3.500",
-    venda: true,
   },
   {
     id: 6,
@@ -63,14 +47,7 @@ const items = [
     price: "Doação",
     venda: false,
   },
-  {
-    id: 9,
-    name: "Forno com microondas",
-    description: "Forno, microondas e grill. Em bom estado, funcionando normal.",
-    image: "https://static-file-vault.vercel.app/fotos-doacao/forno.jpeg",
-    price: "JPY 7.000",
-    venda: true,
-  },
+},
 ]
 
 const phoneNumber = "8109063813550"
