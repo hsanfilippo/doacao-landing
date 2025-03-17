@@ -47,7 +47,6 @@ const items = [
     price: "Doação",
     venda: false,
   },
-},
 ]
 
 const phoneNumber = "8109063813550"
